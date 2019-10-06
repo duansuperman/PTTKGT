@@ -1,0 +1,12 @@
+Đệ quy là cash viết đơn giản chứ không phải giam độ phức tạp
+
+int Dequy(int n){
+	if(n==0){
+	return 1
+	}
+	if(n%2==0){
+		return n/2*dequy(n/2);
+	if(
+}
+
+vẽ cây đệ quy, có thê kết luận độ phức tạp của FB : O(2^n)
